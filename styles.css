@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Primeros 3 elementos = Ajustar codigo para que aparezca todo centrado*/
+
+.Father {
+    height: 450px;
+    width: 600px;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    position: relative;
+}
+
+.Child_1 {
+    width: 130px;
+    height: 290px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 10px;
+    position: absolute;
+    top: 10PX;
+    left: 10PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Child_2 {
+    width: 435px;
+    height: 130px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 10px;
+    position: absolute;
+    top: 10PX;
+    right: 0PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Child_3 {
+    width: 450px;
+    height: 150px;
+    background-color: yellow;
+    border-radius: 10px;
+    margin-right: 10px;
+    position: absolute;
+    right: -10px;
+    bottom: 147PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Child_3_1 {
+    width: 143px;
+    height: 150px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.Child_3_2 {
+    width: 143px;
+    height: 150px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Child_3_3 {
+    width: 143px;
+    height: 150px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Child_4 {
+    width: 580px;
+    height: 125px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 10px;
+    position: absolute;
+    bottom: 10PX;
+    left: 10PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
